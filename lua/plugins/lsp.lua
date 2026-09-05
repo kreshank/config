@@ -20,6 +20,7 @@ return {
     opts = {
       ensure_installed = {
         "clangd",
+        "jdtls",
         "pyright",
         "ruff",
         "rust_analyzer",
@@ -120,6 +121,8 @@ return {
           },
         },
       })
+
+      vim.lsp.config("jdtls", {})
 
       vim.lsp.config("rust_analyzer", {})
 

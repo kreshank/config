@@ -32,6 +32,8 @@ local M = {
       objc = "clangd",
       objcpp = "clangd",
 
+      java = "jdtls",
+
       python = "ruff",
 
       rust = "rust_analyzer",
